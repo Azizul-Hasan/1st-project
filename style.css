@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+
+}
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40;
+}
+
+.flexible-container{
+    display: flex;
+    padding: 10%;
+
+}
+.half-width{
+    width: 50%;
+}
+img{
+  width: 80%;
+  border-radius: 50%;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(blue,blueviolet);
+    font-weight: 700 ;
+}
+
+.text-color{
+    color: rgb(0, 0, 0);
+}
+span{
+    color: black;
+}
+.middle{
+    text-align: center;
+}
+.top-banner{
+
+    background-image: url("images/wave.svg");
+    background-repeat: no-repeat;
+
+}
+
+.three{
+
+padding: 5%;
+text-align: center;
+}
+.bottom{
+   display: flex; 
+   text-align: center;
+   
+}
+.child{
+    box-shadow: 10px 5px 30px rgb(0, 0, 0);
+    margin: 2%;
+    padding: 4%;
+    border-radius: 0 20px 50px 0;
+    border-left: 20px  solid ;
+    border-image: linear-gradient(blue,cyan) 0 100%;
+
+}
+footer{
+    margin: 5%;
+    text-align: center;
+}
